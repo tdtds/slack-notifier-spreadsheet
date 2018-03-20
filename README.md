@@ -15,7 +15,7 @@ Slack Notifier Spreadsheetは、Googleスプレッドシートで指定した時
 Slack Notifier Spreadsheetは個人で利用するSlackボットなので、ユーザによるインストールが必要です。以下の手順に従ってインストールをしてください。
 
 ## SlackAppを作る
-まず、Slack側でSlackAppをひとつ作ります。 https://api.slack.com/ にて新規アプリをしましょう。「App Name」はアプリがSlack上で発言する場合の表示名のデフォルトになります。アプリを端的にあらわす短い名前をつけましょう。「Development Slack Workspace」でアプリを開発するためのWorkspaceを指定します。このアプリは自分用なので、自分の好きにできるWorkspaceを選びます。
+まず、Slack側でSlackAppをひとつ作ります。 https://api.slack.com/ にて新規アプリを作成しましょう。「App Name」はアプリがSlack上で発言する場合の表示名のデフォルトになります。アプリを端的にあらわす短い名前をつけましょう。「Development Slack Workspace」でアプリを開発するためのWorkspaceを指定します。このアプリは自分用なので、自分の好きにできるWorkspaceを選びます。
 
 アプリができたら設定をします。まず「Incoming Webhooks」を選んで有効にします。そして「Add New Webhook to Workspace」で通知をするチャンネルを選び、接続します。チャンネルだけでなくDMも選択できます。テスト用なら自分へのDMにしても良いでしょう。ここで作ったWebhook URL (`https://hooks.slack.com/services/XXXXX/XXXXX/XXXXX`)はあとで使うので控えておきます。
 
